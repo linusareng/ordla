@@ -25,11 +25,6 @@ export function Square(props: {
   return (
     <div
       className="center letter"
-      className: hit
-          ? " var(--letter-bg--hit)"
-          : almost
-          ? " var(--letter-bg--almost)"
-          : " var(--letter-bg)",
       style={{
         fontSize: "24px",
         textTransform: "uppercase",
