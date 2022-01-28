@@ -13,7 +13,7 @@ export function Square(props: {
       guess?.split("").filter((l2, i) => word[i] === l2 && l2 === letter)
         .length) ||
     0;
-
+    var extraclass = " default ";
   const almost =
     letter &&
     !isCurrentTry &&
@@ -24,7 +24,8 @@ export function Square(props: {
     word.indexOf(letter) > -1;
   return (
     <div
-      className="center letter"
+      className="center letter "
+      className={extraclass}
       style={{
         fontSize: "24px",
         textTransform: "uppercase",
