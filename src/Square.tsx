@@ -25,7 +25,6 @@ export function Square(props: {
   return (
     <div
       className="center letter "
-      className= extraclass
       style={{
         fontSize: "24px",
         textTransform: "uppercase",
