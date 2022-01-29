@@ -24,7 +24,7 @@ export function Square(props: {
     word.indexOf(letter) > -1;
   return (
     <div
-      className="center letter "
+      className="center letter"
       style={{
         fontSize: "24px",
         textTransform: "uppercase",
